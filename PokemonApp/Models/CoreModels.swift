@@ -135,7 +135,7 @@ struct EvolutionInfo {
 
 /// Represents the result of adding experience after a Battle that can lead to a level up
 struct LevelUpResult {
-    let experienceGained: Bool
+    let experienceGained: Int
     let oldLevel: Int
     let newLevel: Int
     let leveledUp: Bool
