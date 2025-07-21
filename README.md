@@ -9,7 +9,7 @@ A Pokemon battle game app that lets you choose your starting pokemon, level up, 
 
 ## Design Pattern
 
-**MVVM + Coordinator Pattern**
+**MVC + Coordinator Pattern**
 - ViewModels manage business logic and state
 - Coordinators handle navigation between screens
 - Services layer handles data operations
@@ -22,15 +22,22 @@ A Pokemon battle game app that lets you choose your starting pokemon, level up, 
 - **Business Logic Layer**: Services and ViewModels
 - **Data Layer**: Core Data persistence + PokeAPI network calls
 
-## Key Technical Decisions
+- **Swift Concurrency**: `async/await` for all network operations  
+- **Core Data**: For player progress and game state persistence  
+- **Hybrid UI**: UIKit for navigation; SwiftUI for the battle view  
+- **NSLayoutConstraint**: Used for programmatic layout across UIKit viewcontrollers 
+- **Image Caching**: Reduces redundant network calls  
+- **SwiftLint**: Enforces code quality and style  
+- **DocC**: Documentation for core services and models  
+- **Network Retry Logic**: Exponential backoff (1s, 2s, 3s) with simulated failures
 
-- **Swift Concurrency**: async/await for all network operations
-- **Core Data**: Player progress and game persistence  
-- **Hybrid UI**: UIKit for navigation, and SwiftUI View using
-- **Image Caching**: Caching for images
-- **Network Retry Logic**: Exponential backoff (1s, 2s, 3s) with 50% failure simulation
-- **SwiftLint**: Code quality and style enforcement in all project
-- **DocC Documentation**: Comprehensive documentation for service layer and core models
+> 🔧 To test **network failure simulation with retry**, go to `NetworkService.swift` and change:
+> ```swift
+> private let failureSimulationEnabled = false
+> ```
+> to:
+> ```swift
+> private let failureSimulationEnabled = true
 
 ## Testing using XCTest
 Meaningful Tests:
