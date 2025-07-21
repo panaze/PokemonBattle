@@ -192,10 +192,12 @@
 					};
 					C44354D62E29D74C0057A533 = {
 						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
 						TestTargetID = C44354BD2E29D74A0057A533;
 					};
 					C44354E02E29D74C0057A533 = {
 						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
 						TestTargetID = C44354BD2E29D74A0057A533;
 					};
 				};
@@ -317,7 +319,7 @@
 				DEVELOPMENT_TEAM = W3R57UHU9V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PokemonApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Pokemon App";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pokemon Battle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -346,7 +348,7 @@
 				DEVELOPMENT_TEAM = W3R57UHU9V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PokemonApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Pokemon App";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pokemon Battle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -499,6 +501,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pablonz.PokemonAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokemonApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokemonApp";
@@ -536,6 +539,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pablonz.PokemonAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PokemonApp;
