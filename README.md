@@ -22,6 +22,8 @@ A Pokemon battle game app that lets you choose your starting pokemon, level up, 
 - **Business Logic Layer**: Services and ViewModels
 - **Data Layer**: Core Data persistence + PokeAPI network calls
 
+## Challenge Requirements
+
 - **Swift Concurrency**: `async/await` for all network operations  
 - **Core Data**: For player progress and game state persistence  
 - **Hybrid UI**: UIKit for navigation; SwiftUI for the battle view  
