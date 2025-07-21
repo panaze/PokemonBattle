@@ -196,7 +196,7 @@ class BattleService {
             damage: -actualHeal,
             isCritical: false,
             newPhase: .enemyTurn,
-            message: "\(battle.playerPokemon.name) used Rest. Restored \(actualHeal) HP.)"
+            message: "\(battle.playerPokemon.name) used Rest. Restored \(actualHeal) HP."
         )
     }
 }
