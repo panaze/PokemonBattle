@@ -140,7 +140,7 @@ class MoveGenerator {
             power: 0,
             type: "normal",
             description: "Restores 30 HP (once per battle)",
-            isSpecial: false
+            isSpecial: true
         )
     ]
     // MARK: - Move Generation
