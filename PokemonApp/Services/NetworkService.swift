@@ -12,7 +12,7 @@ class NetworkService {
     // MARK: - Properties
     private let session: URLSession
     private let baseURL = "https://pokeapi.co/api/v2"
-    private let failureSimulationEnabled = false
+    private let failureSimulationEnabled = false // HERE TO ENABE NETWORK SIMULATION + WITH RETRY!!
     private let maxRetryAttempts: Int
     // MARK: - Initialization
     private init(session: URLSession = .shared, maxRetryAttempts: Int = 3) {
