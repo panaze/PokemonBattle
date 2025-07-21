@@ -70,7 +70,7 @@ Evolution updates Pokemon sprite, name, and ID while keeping level and experienc
 
 ## Setup Instructions
 
-1. **Clone**: `git clone https://github.com/panaze/PokemonApp`
+1. **Clone**: `git clone https://github.com/panaze/PokemonBattle`
 2. **Open**: `open PokemonBattle.xcodeproj`
 3. **Run**: Select iPhone simulator with at least iOS 17 and press ⌘+R
 4. **Test**: Press ⌘+U to run unit tests
